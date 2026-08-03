@@ -3,8 +3,5 @@ body{background-color: black;
      text-align: center;
     }
 img{width: 250px;
-    border-radius: 15px;
-    border-width: 3px;
-    border-style: solid;
-    border-color: darkred;
+    border: 10px solid red;
    }
