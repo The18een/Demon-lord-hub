@@ -28,7 +28,7 @@ ul, ol{text-align: left;
        width: 80%;
        margin: 0 auto;
       }
-DND{width: 10px;
+.DND{width: 10px;
      hight: 10px;
      background-color: red;
      border-radius: 50%;
