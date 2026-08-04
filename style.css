@@ -44,5 +44,10 @@ img:hover{transition: o.3s;
           box-shadow: 0px 0px 20px darkblue;
           width: 270px;
          }
+.badge{color: cyan;
+       font-weight: bold;
+       text-shadow: 0px 0px 8px
+      }
+       
 
         
