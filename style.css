@@ -65,8 +65,8 @@ li:hover{background-color: cyan;
         text-shadow: 0px 0px 8px cyan;
        }
 .button:hover{background-color: cyan;
-              border: 2px solid darkblue;
-              color: balck;
+              border: 2px solid cyan;
+              color: black;
               font-size: 18px;
               text-shadow: 0px 0px 8px darkblue;
              }
