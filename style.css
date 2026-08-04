@@ -1,5 +1,9 @@
 body{background-color: black;
      color: white;
+     background-image: url(./download.jpg);
+     background-size: cover;
+     background-position: center;
+     backgrund-attachmet: fixed;
     }
 img{display: block;
     margin: auto;
