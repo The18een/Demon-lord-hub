@@ -40,5 +40,9 @@ ul, ol{text-align: left;
 .status{color: lightgrey;
         font-weight: bold;
        }
+img:hover{transition: o.3s;
+          box-shadow: 0px 0px 20px darkblue;
+          width: 270px;
+         }
 
         
