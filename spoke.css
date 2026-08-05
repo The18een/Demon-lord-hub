@@ -32,6 +32,10 @@ ul, ol{text-align: left;
        width: 80%;
        margin: 0 auto;
       }
+.dot{color: green;
+     font-weight: bold;
+     text-shadow: 0px 0px 8px green;
+    }
 .on{color: white;
      font-weight: bold;
      font-size: 18px;
@@ -41,32 +45,34 @@ ul, ol{text-align: left;
         font-weight: bold;
        }
 img:hover{transition: o.3s;
-          box-shadow: 0px 0px 20px red;
+          box-shadow: 0px 0px 20px .dot{color: red;
+          font-weight: bold;
+          text-shadow: 0px 0px 8px #b026ff;
           width: 270px;
          }
 li{color: #E6E6FA);
    font-weight: bold;
    transition: 0.3s;
   }
-li:hover{background-color: rgb(255, 255, 51);
+li:hover{background-color: #b026ff;
          color: black;
          font-size: 18px;
-         text-shadow: 0px 0px 8px red;
+         text-shadow: 0px 0px 8px #b026ff;
         }
 .button{display: incline-block;
         padding: 10px 20px
         border: 2px solid #E6E6FA;
         transition: 0.3s;
-        color: yellow;
+        color: #E6E6FA;
         text-decoration: none;
-        text-shadow: 0px 0px 8px rgb(255, 255, 51);
+        text-shadow: 0px 0px 8px #b026ff;
         border-radius: 10px;
        }
 .button:hover{background-color: #E6E6FA;
               border: 2px solid #E6E6FA);
               color: black;
               font-size: 18px;
-              text-shadow: 0px 0px 8px red;
+              text-shadow: 0px 0px 8px #b026ff;
               text-size: 18px;
              }
         
