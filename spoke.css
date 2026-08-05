@@ -45,7 +45,7 @@ ul, ol{text-align: left;
         font-weight: bold;
        }
 img:hover{transition: o.3s;
-          box-shadow: 0px 0px 20px .dot{color: red;
+          box-shadow: 0px 0px 20px #b026ff;
           font-weight: bold;
           text-shadow: 0px 0px 8px #b026ff;
           width: 270px;
