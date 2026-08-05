@@ -9,11 +9,11 @@ img{display: block;
     margin: auto;
     width: 250px;
     border-radius: 15px;
-    border: 3px solid cyan;
-    box-shadow: 0px 0px 20px rgba(0,255,255,0.25);
+    border: 3px solid rgb(255, 255, 51);
+    box-shadow: 0px 0px 20px rgba(255, 255, 51, 0.25);
    }
 h1{text-align: center;
-   color: cyan;
+   color: yellow;
    font-size: 50px;
   }
 h3{text-align: center;
@@ -23,7 +23,7 @@ h3{text-align: center;
 div{width: 600px;
     border-radius: 15px;
     background-color: rgb(20,20,20);
-    border: 3px solid cyan;
+    border: 3px solid rgb(255, 255, 51);
     margin: auto;
     padding: 40px;
    }
@@ -47,33 +47,29 @@ img:hover{transition: o.3s;
           box-shadow: 0px 0px 20px darkblue;
           width: 270px;
          }
-.badge{color: cyan;
-       font-weight: bold;
-       text-shadow: 0px 0px 8px cyan;
-      }
-li{color: cyan;
+li{color: rgb(255, 255, 51);
    font-weight: bold;
    transition: 0.3s;
   }
-li:hover{background-color: cyan;
+li:hover{background-color: rgb(255, 255, 51);
          color: black;
          font-size: 18px;
-         text-shadow: 0px 0px 8px darkblue;
+         text-shadow: 0px 0px 8px red;
         }
 .button{display: incline-block;
         padding: 10px 20px
-        border: 2px solid cyan;
+        border: 2px solid rgb(255, 255, 51);
         transition: 0.3s;
-        color: cyan;
+        color: yellow;
         text-decoration: none;
-        text-shadow: 0px 0px 8px cyan;
+        text-shadow: 0px 0px 8px rgb(255, 255, 51);
         border-radius: 10px;
        }
 .button:hover{background-color: cyan;
-              border: 2px solid cyan;
+              border: 2px solid rgb(255, 255, 51);
               color: black;
               font-size: 18px;
-              text-shadow: 0px 0px 8px darkblue;
+              text-shadow: 0px 0px 8px red;
               text-size: 18px;
              }
         
