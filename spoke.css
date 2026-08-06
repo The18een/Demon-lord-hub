@@ -3,7 +3,7 @@ body{background-color: transparent;
      background-image: url(./purple.jpg);
      background-size: cover;
      background-position: center;
-     backgrund-attachmet: fixed;
+     background-attachment: fixed;
     }
 img{display: block;
     margin: auto;
@@ -44,13 +44,13 @@ ul, ol{text-align: left;
 .status{color: lightgrey;
         font-weight: bold;
        }
-img:hover{transition: o.3s;
+img:hover{transition: 0.3s;
           box-shadow: 0px 0px 20px #9d00ff;
           font-weight: bold;
           text-shadow: 0px 0px 8px #9d00ff;
           width: 270px;
          }
-li{color: #b026ff);
+li{color: #b026ff;
    font-weight: bold;
    transition: 0.3s;
   }
@@ -59,8 +59,8 @@ li:hover{background-color: #b026ff;
          font-size: 18px;
          text-shadow: 0px 0px 8px #9d00ff;
         }
-.button{display: incline-block;
-        padding: 10px 20px
+.button{display: inline-block;
+        padding: 10px 20px;
         border: 2px solid #E6E6FA;
         transition: 0.3s;
         color: #E6E6FA;
@@ -69,10 +69,9 @@ li:hover{background-color: #b026ff;
         border-radius: 10px;
        }
 .button:hover{background-color: #E6E6FA;
-              border: 2px solid #E6E6FA);
+              border: 2px solid #E6E6FA;
               color: black;
               font-size: 18px;
               text-shadow: 0px 0px 8px #9d00ff;
-              text-size: 18px;
              }
         
