@@ -10,11 +10,21 @@
     <input type="text" placeholder="Enter your discord name">
     <br><br>
     <label>choose a Profile</label>
-    <select>
+    <select id="profile">
         <option value="Rimuru.html">Demon Lord</option>
         <option>Testarossa</option>
         <option value="spoke.html">Spokie</option>
         <option>Mobi</option>
     </select>
+    <br>
+
+<button type="button" onclick="goToProfile()">Submit</button>
+
+<script>
+function goToProfile() {
+    const profile = document.getElementById("profile").value;
+    window.location.href = profile;
+}
+</script>
   </body>
 </html>
